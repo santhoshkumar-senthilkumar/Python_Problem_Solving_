@@ -1,0 +1,6 @@
+a=10
+b=20
+c=b+a
+print("The sum of a and b is",c)
+print("Multiplication of a and b is",a*b)
+print("The division of a and b is",a/b)
