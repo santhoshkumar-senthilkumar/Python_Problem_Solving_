@@ -1,0 +1,6 @@
+a=int(input("Enter the Number: "))
+if a%3==0 and a%5==0:
+    print("The number is divisible by both 3 and 5.",a)
+else:
+    print("The number is not divisible by both 3 and 5.",a)
+    
