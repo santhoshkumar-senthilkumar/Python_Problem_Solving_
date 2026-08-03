@@ -1,4 +1,0 @@
-a=int(input("Enter the length of a rectangle: "))
-b=int(input("Enter the breadth of a rectangle: "))
-c=a*b
-print("The area of a rectangle is",c)

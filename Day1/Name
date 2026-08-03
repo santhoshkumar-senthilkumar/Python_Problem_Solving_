@@ -1,3 +1,0 @@
-print("SANTHOSH KUMAR")
-s="SANTHOSH KUMAR"
-print(s + "\n" + s)
