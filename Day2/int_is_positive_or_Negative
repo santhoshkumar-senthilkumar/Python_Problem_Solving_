@@ -1,6 +1,0 @@
-a=int(input("Enter the number: "))
-if a>0:
-    print("The number is positive",a)
-if a<0:
-    print("The number is negative",a)
-    
