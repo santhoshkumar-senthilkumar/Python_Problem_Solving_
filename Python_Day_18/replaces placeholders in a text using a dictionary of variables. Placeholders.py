@@ -6,7 +6,7 @@ Use regex to identify and replace them dynamically.
 import re
 text = "Hello {{name}}, your order {{order_id}} will be delivered by {{date}}."
 data = {"name": "Ravi", "order_id": "A1023", "date": "2025-10-06"}
-sub = re.sub(r"\{{name}}", data['name'],text)
-sub = re.sub(r"\{{order_id}}", data['order_id'],sub)
-sub = re.sub(r"\{{date}}", data['date'],sub)
-print(sub)
+sub = re.findall(r"{{(\w+)}}",text)
+for i in sub:
+    text=re.sub(r"{{(\w+)}}",data[i],text,1)
+print(text)
